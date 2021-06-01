@@ -80,12 +80,12 @@ int main() {
             buffer[3] = 0;
           }
           write_data_to_ACC(GAUSSFILTER_START_ADDR, buffer, 4);
-          printf("send r: %d, g: %d, b: %d\n", *(buffer+2), *(buffer+1), *(buffer+0));
+//           printf("send r: %d, g: %d, b: %d\n", *(buffer+2), *(buffer+1), *(buffer+0));
         }
       }
       read_data_from_ACC(GAUSSFILTER_READ_ADDR, buffer, 4);
 
-      printf("gen  r: %d, g: %d, b: %d\n", *(buffer+2), *(buffer+1), *(buffer+0));
+//       printf("gen  r: %d, g: %d, b: %d\n", *(buffer+2), *(buffer+1), *(buffer+0));
       // printf("[%d - %d] >>> %d \n",i ,j ,*(buffer + 0) );
       // if(*(buffer + 0) > 90){
       //   printf("%d,", 255 );
