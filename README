@@ -1,0 +1,28 @@
+File Structure:
+
+ee6470_hw6/
+|-- README
+|-- hw6_report.pdf
+|-- report.md
+`-- src/gauss/
+    |-- main.cpp
+    |-- Makefile
+    |-- lena_std_short.bmp
+    |-- lena_std_short.h
+`-- platform/
+    |-- GaussFilter.h
+    |-- filter_def.h
+    |-- main.cpp
+
+4 directories, 27 files
+
+How to run? (use lena_std_short.bmp as input image)
+
+1.      cd $EE6470
+2.      git clone https://github.com/jieyunma/ee6470_hw6.git
+3.      Copy source file into riscv-vp/sw/ directory, type "cp -r ee6470_hw6/src/* $EE6470/riscv-vp/sw/"
+4.      Copy platform file into riscv-vp/vp/src/platform/basic-acc/ directory, type "cp -r ee6470_hw6/platform/* $EE6470/riscv-vp/vp/src/platform/basic-acc"
+5.      Change directory to riscv-vp/vp/build/, type "cd $EE6470/riscv-vp/build"
+6.      Build "basic-acc" platform, type "cmake .." and "make install"
+7.      Change directory to riscv-vp/sw/gauss/, type "cd $EE6470/riscv-vp/sw/gauss"
+8.      Do the simulation, type "make" and "make sim"
