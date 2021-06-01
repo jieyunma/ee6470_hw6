@@ -35,3 +35,4 @@ How to run? (use lena_std_short.bmp as input image)
 7.      Change directory to riscv-vp/sw/gauss/, type "cd $EE6470/riscv-vp/sw/gauss"
 
 8.      Do the simulation, type "make" and "make sim"
+
