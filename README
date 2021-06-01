@@ -28,7 +28,7 @@ How to run? (use lena_std_short.bmp as input image)
 4.      Copy platform file into riscv-vp/vp/src/platform/basic-acc/ directory,
             type "cp -r ee6470_hw6/platform/* $EE6470/riscv-vp/vp/src/platform/basic-acc"
             
-5.      Change directory to riscv-vp/vp/build/, type "cd $EE6470/riscv-vp/build"
+5.      Change directory to riscv-vp/vp/build/, type "cd $EE6470/riscv-vp/vp/build"
 
 6.      Build "basic-acc" platform, type "cmake .." and "make install"
 
